@@ -32,4 +32,4 @@ jobs:
           path: website
       - name: Deploy website
         id: deployment
-        uses: actions/deploy-pages@d6db90192d16a4b0ea3c6133f3982082c6729a86
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
