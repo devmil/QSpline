@@ -1,23 +1,110 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="QSpline is a graph-first Git GUI built with Rust and QML.">
-  <title>QSpline</title>
+  <meta name="description" content="QSpline is a graph-first desktop Git client for Linux, macOS, and Windows.">
+  <meta name="color-scheme" content="light dark">
+  <title>QSpline · Graph-first Git</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="releases.js" defer></script>
 </head>
 <body>
-  <main>
-    <p class="eyebrow">Rust + QML desktop Git client</p>
-    <h1>See the history. Work the repository.</h1>
-    <p class="lede">QSpline is a classic, keyboard-capable Git GUI with a commit graph built to stay useful in large repositories.</p>
-    <p><a class="button" href="releases.html">Releases</a></p>
-    <section aria-labelledby="status-title">
-      <h2 id="status-title">Project status</h2>
-      <p>The engineering foundation is under construction. Public builds will appear here after the first release gate passes.</p>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="QSpline home">
+      <svg viewBox="0 0 28 28" aria-hidden="true"><path d="M5 5c0 6 9 4 9 9v9M23 5c0 6-9 4-9 9"/><circle cx="5" cy="5" r="2.5"/><circle cx="23" cy="5" r="2.5"/><circle cx="14" cy="23" r="2.5"/></svg>
+      QSpline
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#graph">Graph</a>
+      <a href="#platforms">Platforms</a>
+      <a href="releases.html">Releases</a>
+      <a href="releases.html#verify">Verify</a>
+      <a href="https://code.lamers-cloud.de/mlamers/QSpline">Source</a>
+    </nav>
+    <div class="theme-switch" role="group" aria-label="Appearance">
+      <button type="button" data-theme="system" aria-pressed="true">System</button>
+      <button type="button" data-theme="light" aria-pressed="false">Light</button>
+      <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">Rust + QML desktop Git client</p>
+        <h1 id="hero-title">See the history.<br>Work the repository.</h1>
+        <p class="lede">QSpline puts a fast, readable commit graph beside the changes you are making. It keeps repository state visible and every frequent action within keyboard reach.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="releases.html" data-download-link>View releases</a>
+          <a class="button quiet" href="releases.html#verify">Verify a download</a>
+        </div>
+        <div class="availability" id="recommended-download" data-release-summary aria-live="polite" aria-atomic="true">
+          <strong>Release candidate in qualification</strong>
+          <span>Public downloads appear only after all three platform packages identify the same immutable release.</span>
+        </div>
+      </div>
+
+      <figure class="product-proof" id="graph" aria-labelledby="proof-caption">
+        <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>QSpline · main</span></div>
+        <div class="repository-bar"><strong>QSpline</strong><span>main</span><span class="repo-state">Working tree clean</span></div>
+        <div class="graph-table" role="img" aria-labelledby="graph-title graph-description">
+          <svg class="graph-lines" viewBox="0 0 150 312" preserveAspectRatio="none">
+            <title id="graph-title">QSpline commit graph</title>
+            <desc id="graph-description">Three labeled branch lanes merge into main across eight commits. Commit subjects repeat the topology without relying on color.</desc>
+            <path class="lane lane-a" d="M34 18v276"/>
+            <path class="lane lane-b" d="M76 18v39c0 20-42 20-42 39"/>
+            <path class="lane lane-b" d="M34 136c0 20 42 20 42 39v38c0 20-42 20-42 39"/>
+            <path class="lane lane-c" d="M118 57v38c0 20-42 20-42 39"/>
+            <g class="nodes"><circle cx="34" cy="18" r="5"/><circle cx="76" cy="57" r="4"/><circle cx="118" cy="96" r="4"/><circle cx="34" cy="96" r="4"/><circle cx="76" cy="135" r="5"/><circle cx="34" cy="174" r="4"/><circle cx="76" cy="213" r="4"/><circle cx="34" cy="252" r="5"/><circle cx="34" cy="291" r="4"/></g>
+          </svg>
+          <div class="commit selected"><span class="topology">Main lane, HEAD</span><div><b><span class="ref-pill">main</span> Publish bounded graph snapshots</b><small>c8f81d2 · Maya · 2 min</small></div></div>
+          <div class="commit"><span class="topology">Feature lane</span><div><b>Keep ref identities stable</b><small>315bf77 · Lin · 18 min</small></div></div>
+          <div class="commit"><span class="topology">Review lane</span><div><b>Measure one-frame selection</b><small>ef0941a · Jo · 24 min</small></div></div>
+          <div class="commit"><span class="topology">Main lane</span><div><b>Bound visible geometry</b><small>683bd92 · Maya · 31 min</small></div></div>
+          <div class="commit"><span class="topology">Merge to main</span><div><b>Merge native graph renderer</b><small>ba22c03 · Lin · 42 min</small></div></div>
+          <div class="commit"><span class="topology">Main lane</span><div><b>Preserve selection through refresh</b><small>41fd088 · Jo · 1 h</small></div></div>
+          <div class="commit"><span class="topology">Feature lane</span><div><b>Paginate the commit walk</b><small>3bd78ac · Maya · 2 h</small></div></div>
+          <div class="commit"><span class="topology">Merge to main</span><div><b>Wire installed Git history</b><small>806f4b1 · Lin · 3 h</small></div></div>
+        </div>
+        <figcaption id="proof-caption">The graph is the workspace, not a thumbnail. Rust owns topology and stable commit identity. The view renders only the visible rows.</figcaption>
+      </figure>
+    </section>
+
+    <section class="principles" aria-labelledby="principles-title">
+      <p class="kicker">Built for repository work</p>
+      <h2 id="principles-title">Dense where it matters</h2>
+      <div class="feature-grid">
+        <article><span class="feature-number">01</span><h3>History stays legible</h3><p>Cubic lanes, ref labels, parent relationships, filters, and comparisons use stable commit identities.</p></article>
+        <article><span class="feature-number">02</span><h3>State stays on screen</h3><p>Changes, operation state, commit input, and selected details live in persistent panes instead of disappearing into notifications.</p></article>
+        <article><span class="feature-number">03</span><h3>Git stays visible</h3><p>QSpline runs installed Git and records each command and bounded output in the activity view.</p></article>
+      </div>
+    </section>
+
+    <section class="platforms" id="platforms" aria-labelledby="platforms-title">
+      <div><p class="kicker">v1 platforms</p><h2 id="platforms-title">Native packages</h2><p>Each release publishes exact checksums and an Ed25519-signed manifest. The supported floor includes Git 2.39.</p></div>
+      <div class="platform-grid">
+        <article><span aria-hidden="true">LNX</span><h3>Linux x86_64</h3><p>glibc 2.35</p><small>AppImage, DEB, RPM, portable archive</small></article>
+        <article><span aria-hidden="true">MAC</span><h3>macOS arm64</h3><p>macOS 13</p><small>Signed and notarized DMG</small></article>
+        <article><span aria-hidden="true">WIN</span><h3>Windows x64</h3><p>Windows 10 1809</p><small>Signed MSI installer</small></article>
+      </div>
+      <div class="unsupported" data-unsupported hidden tabindex="-1">
+        <strong data-unsupported-title>This platform is not in v1.</strong>
+        <p>QSpline v1 publishes Linux x86_64, macOS arm64, and Windows x64. You can build from source or follow the release feed.</p>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <div><a class="wordmark" href="index.html">QSpline</a><p>A graph-first desktop Git client.</p></div>
+    <nav aria-label="Project links">
+      <a href="releases.html">Releases</a>
+      <a href="releases.html#verify">Checksums and signatures</a>
+      <a href="releases.html#privacy">Privacy</a>
+      <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a>
+      <a href="https://code.lamers-cloud.de/mlamers/QSpline">Source on Forgejo</a>
+    </nav>
+  </footer>
 </body>
 </html>
-
