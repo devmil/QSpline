@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">QSpline feature graphic background</title>
+  <desc id="desc">A dark field with quiet, curved commit lanes and softly colored nodes.</desc>
+  <defs>
+    <linearGradient id="field" x1="70" y1="20" x2="1130" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171d27"/>
+      <stop offset="0.52" stop-color="#10151d"/>
+      <stop offset="1" stop-color="#0b0f15"/>
+    </linearGradient>
+    <radialGradient id="blue-glow" cx="0" cy="0" r="1" gradientTransform="translate(174 536) rotate(-35) scale(500 338)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#447fc8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#447fc8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="green-glow" cx="0" cy="0" r="1" gradientTransform="translate(1080 98) rotate(145) scale(430 292)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44a979" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#44a979" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="primary-lane" x1="-70" y1="486" x2="1260" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7cb2ff" stop-opacity="0.08"/>
+      <stop offset="0.44" stop-color="#7cb2ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5ed59a" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="secondary-lane" x1="70" y1="70" x2="1180" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52c7c4" stop-opacity="0.06"/>
+      <stop offset="0.55" stop-color="#52c7c4" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#e0ad55" stop-opacity="0.07"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#field)"/>
+  <rect width="1200" height="630" fill="url(#blue-glow)"/>
+  <rect width="1200" height="630" fill="url(#green-glow)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M-88 512 C150 512 154 132 412 132 H522 C722 132 686 448 904 448 H1288" stroke="url(#primary-lane)" stroke-width="4"/>
+    <path d="M-80 574 C210 574 196 216 464 216 H590 C774 216 748 368 928 368 H1270" stroke="#7cb2ff" stroke-opacity="0.11" stroke-width="2"/>
+    <path d="M-60 72 H242 C476 72 414 512 680 512 H814 C1018 512 1000 206 1260 206" stroke="url(#secondary-lane)" stroke-width="3"/>
+    <path d="M-50 620 C204 620 250 402 470 402 H760 C934 402 956 548 1250 548" stroke="#5ed59a" stroke-opacity="0.09" stroke-width="2"/>
+    <path d="M-48 284 H188 C352 284 380 390 544 390 H760 C950 390 992 72 1248 72" stroke="#e0ad55" stroke-opacity="0.08" stroke-width="2"/>
+  </g>
+
+  <g fill="#10151d" stroke-width="3">
+    <circle cx="412" cy="132" r="9" stroke="#7cb2ff" stroke-opacity="0.34"/>
+    <circle cx="904" cy="448" r="8" stroke="#5ed59a" stroke-opacity="0.30"/>
+    <circle cx="464" cy="216" r="6" stroke="#7cb2ff" stroke-opacity="0.22"/>
+    <circle cx="680" cy="512" r="8" stroke="#52c7c4" stroke-opacity="0.28"/>
+    <circle cx="760" cy="390" r="6" stroke="#e0ad55" stroke-opacity="0.20"/>
+    <circle cx="992" cy="72" r="7" stroke="#5ed59a" stroke-opacity="0.24"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="628" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
+</svg>

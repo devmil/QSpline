@@ -3,9 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="QSpline is a graph-first desktop Git client for Linux, macOS, and Windows.">
+  <meta name="description" content="QSpline is a desktop Git client built around a commit graph, persistent panes, and installed Git.">
   <meta name="color-scheme" content="light dark">
-  <title>QSpline · Graph-first Git</title>
+  <meta name="theme-color" content="#11151c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta property="og:title" content="QSpline · Desktop Git client">
+  <meta property="og:description" content="A desktop Git client built around a commit graph, persistent panes, and installed Git.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/brand/qspline-feature.png">
+  <title>QSpline · Desktop Git client</title>
+  <link rel="icon" href="assets/brand/qspline-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <script src="releases.js" defer></script>
 </head>
@@ -13,7 +23,7 @@
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <a class="wordmark" href="index.html" aria-label="QSpline home">
-      <svg viewBox="0 0 28 28" aria-hidden="true"><path d="M5 5c0 6 9 4 9 9v9M23 5c0 6-9 4-9 9"/><circle cx="5" cy="5" r="2.5"/><circle cx="23" cy="5" r="2.5"/><circle cx="14" cy="23" r="2.5"/></svg>
+      <img src="assets/brand/qspline-icon.svg" alt="" width="30" height="30">
       QSpline
     </a>
     <nav aria-label="Primary navigation">
@@ -33,9 +43,9 @@
   <main id="content">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="kicker">Rust + QML desktop Git client</p>
-        <h1 id="hero-title">See the history.<br>Work the repository.</h1>
-        <p class="lede">QSpline puts a fast, readable commit graph beside the changes you are making. It keeps repository state visible and every frequent action within keyboard reach.</p>
+        <p class="kicker">Desktop Git client for Linux, macOS, and Windows</p>
+        <h1 id="hero-title">A Git GUI built around the graph.</h1>
+        <p class="lede">QSpline keeps history, changes, repository state, and commit details in one pane-based window. It calls the Git installed on your computer and records the commands it runs.</p>
         <div class="hero-actions">
           <a class="button primary" href="releases.html" data-download-link>View releases</a>
           <a class="button quiet" href="releases.html#verify">Verify a download</a>
@@ -68,18 +78,28 @@
           <div class="commit"><span class="topology">Feature lane</span><div><b>Paginate the commit walk</b><small>3bd78ac · Maya · 2 h</small></div></div>
           <div class="commit"><span class="topology">Merge to main</span><div><b>Wire installed Git history</b><small>806f4b1 · Lin · 3 h</small></div></div>
         </div>
-        <figcaption id="proof-caption">The graph is the workspace, not a thumbnail. Rust owns topology and stable commit identity. The view renders only the visible rows.</figcaption>
+        <figcaption id="proof-caption">The history view keeps branch lanes, refs, commit details, search, and comparisons in the same workspace.</figcaption>
       </figure>
     </section>
 
     <section class="principles" aria-labelledby="principles-title">
-      <p class="kicker">Built for repository work</p>
-      <h2 id="principles-title">Dense where it matters</h2>
+      <p class="kicker">Current build</p>
+      <h2 id="principles-title">What QSpline does</h2>
       <div class="feature-grid">
-        <article><span class="feature-number">01</span><h3>History stays legible</h3><p>Cubic lanes, ref labels, parent relationships, filters, and comparisons use stable commit identities.</p></article>
-        <article><span class="feature-number">02</span><h3>State stays on screen</h3><p>Changes, operation state, commit input, and selected details live in persistent panes instead of disappearing into notifications.</p></article>
-        <article><span class="feature-number">03</span><h3>Git stays visible</h3><p>QSpline runs installed Git and records each command and bounded output in the activity view.</p></article>
+        <article><span class="feature-number">01</span><h3>Commit graph</h3><p>Branch lanes, refs, merge structure, collapsed sides, filters, path search, and comparisons share stable commit identities.</p></article>
+        <article><span class="feature-number">02</span><h3>Changes and staging</h3><p>Review staged and unstaged files, select lines or hunks, switch between unified and side-by-side diffs, and write the commit without leaving the window.</p></article>
+        <article><span class="feature-number">03</span><h3>Branches and history editing</h3><p>Create and manage branches, merge, rebase, cherry-pick, revert, tag, stash, and work with reflog or file history.</p></article>
+        <article><span class="feature-number">04</span><h3>Conflicts</h3><p>Repository state remains visible during merges and rebases. The conflict editor shows ours, theirs, and the editable result.</p></article>
+        <article><span class="feature-number">05</span><h3>Repository work</h3><p>Open, clone, initialize, and manage more than one repository. Fetch, pull, push, and remote operations run in background workers.</p></article>
+        <article><span class="feature-number">06</span><h3>Command record</h3><p>QSpline uses installed Git. The activity panel records each command and bounded output, with credentials removed before anything reaches the interface.</p></article>
+        <article><span class="feature-number">07</span><h3>Keyboard access</h3><p>Lists, panes, menus, graph movement, staging, and the command palette have keyboard paths and visible focus.</p></article>
+        <article><span class="feature-number">08</span><h3>Local desktop application</h3><p>Repositories stay on your computer. QSpline has light and dark themes and does not require an account or send analytics.</p></article>
       </div>
+    </section>
+
+    <section class="workspace-shot" aria-labelledby="workspace-title">
+      <div><p class="kicker">Pane-based workspace</p><h2 id="workspace-title">Changes stay beside the diff</h2><p>The layout favors persistent information over page changes and transient messages. Panes can be resized, but repository state and the current operation remain in view.</p></div>
+      <figure><img src="assets/qspline-workspace-dark.png" width="1440" height="900" loading="lazy" alt="QSpline Changes view with repository sidebar, staged and unstaged files, diff pane, and persistent operation banners"><figcaption>Current Linux development build</figcaption></figure>
     </section>
 
     <section class="platforms" id="platforms" aria-labelledby="platforms-title">
@@ -97,7 +117,7 @@
   </main>
 
   <footer>
-    <div><a class="wordmark" href="index.html">QSpline</a><p>A graph-first desktop Git client.</p></div>
+      <div><a class="wordmark" href="index.html">QSpline</a><p>Runs locally. No account or analytics.</p></div>
     <nav aria-label="Project links">
       <a href="releases.html">Releases</a>
       <a href="releases.html#verify">Checksums and signatures</a>

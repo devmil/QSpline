@@ -55,7 +55,7 @@ button { color: inherit; font: inherit; }
 
 .site-header { width: var(--page); min-height: 56px; margin: 0 auto; display: flex; align-items: center; gap: 20px; border-bottom: 1px solid var(--border); }
 .wordmark { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 720; text-decoration: none; }
-.wordmark svg { width: 24px; height: 24px; fill: var(--bg); stroke: var(--accent); stroke-width: 2; }
+.wordmark img { display: block; width: 30px; height: 30px; border-radius: 7px; }
 .site-header nav { display: none; gap: 20px; margin-left: auto; }
 .site-header nav a { color: var(--muted); font-size: 13px; text-decoration: none; }
 .site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--fg); }
@@ -109,12 +109,17 @@ h3 { margin-bottom: 8px; font-size: 16px; }
 .ref-pill { display: inline-flex; height: 16px; align-items: center; margin-right: 6px; padding: 0 5px; border: 1px solid var(--accent); border-radius: 2px; color: var(--accent); font-size: 9px; }
 .product-proof figcaption { padding: 12px 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
 
-.principles, .platforms { padding: 72px 0; border-top: 1px solid var(--border); }
+.principles, .workspace-shot, .platforms { padding: 72px 0; border-top: 1px solid var(--border); }
 .feature-grid { display: grid; gap: 0; margin-top: 34px; border: 1px solid var(--border); border-radius: var(--radius); }
 .feature-grid article { padding: 24px; border-bottom: 1px solid var(--border); }
 .feature-grid article:last-child { border-bottom: 0; }
 .feature-grid p, .platforms > div:first-child > p:last-child { color: var(--muted); }
 .feature-number { color: var(--accent); font-family: var(--font-mono); font-size: 11px; }
+.workspace-shot { display: grid; gap: 28px; }
+.workspace-shot > div > p:last-child { max-width: 58ch; color: var(--muted); }
+.workspace-shot figure { overflow: hidden; margin: 0; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.workspace-shot img { display: block; width: 100%; height: auto; }
+.workspace-shot figcaption { padding: 10px 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
 .platform-grid { display: grid; gap: 8px; margin-top: 28px; }
 .platform-grid article { padding: 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
 .platform-grid article > span { display: inline-flex; min-width: 40px; height: 24px; align-items: center; justify-content: center; margin-bottom: 22px; border: 1px solid var(--border); border-radius: 2px; color: var(--muted); font-family: var(--font-mono); font-size: 9px; }
@@ -176,9 +181,11 @@ footer nav a { color: var(--muted); }
   .site-header nav { display: flex; }
   .theme-switch { margin-left: 0; }
   .hero { padding: 80px 0 90px; }
-  .feature-grid, .platform-grid { grid-template-columns: repeat(3, 1fr); }
-  .feature-grid article { border-right: 1px solid var(--border); border-bottom: 0; }
-  .feature-grid article:last-child { border-right: 0; }
+  .feature-grid { grid-template-columns: repeat(2, 1fr); }
+  .platform-grid { grid-template-columns: repeat(3, 1fr); }
+  .feature-grid article { border-right: 1px solid var(--border); }
+  .feature-grid article:nth-child(2n) { border-right: 0; }
+  .feature-grid article:nth-last-child(-n+2) { border-bottom: 0; }
   .asset { grid-template-columns: minmax(220px, 1.4fr) minmax(150px, .8fr) minmax(250px, 1.2fr); align-items: center; }
   footer { grid-template-columns: 1fr auto; align-items: start; }
   footer nav { justify-content: end; }
@@ -187,9 +194,10 @@ footer nav a { color: var(--muted); }
 /* Laptop 1280 layout */
 @media (min-width: 1100px) {
   .hero { grid-template-columns: minmax(390px, .8fr) minmax(560px, 1.2fr); align-items: center; gap: 64px; min-height: calc(100vh - 64px); }
+  .workspace-shot { grid-template-columns: minmax(260px, .55fr) minmax(640px, 1.45fr); align-items: center; gap: 46px; }
   h1 { font-size: clamp(62px, 5.6vw, 82px); }
   .product-proof { transform: perspective(1200px) rotateY(-1.5deg); }
-  .principles, .platforms { padding: 96px 0; }
+  .principles, .workspace-shot, .platforms { padding: 96px 0; }
   .platforms { display: grid; grid-template-columns: .6fr 1.4fr; gap: 70px; }
   .platforms .unsupported { grid-column: 1 / -1; }
   .release-intro { padding-top: 96px; }
