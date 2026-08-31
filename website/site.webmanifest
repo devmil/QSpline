@@ -1,7 +1,7 @@
 {
   "name": "QSpline",
   "short_name": "QSpline",
-  "description": "Desktop Git client built around a commit graph.",
+  "description": "Fast, polished Git client for Linux, macOS, and Windows.",
   "start_url": "index.html",
   "display": "browser",
   "background_color": "#11151c",
