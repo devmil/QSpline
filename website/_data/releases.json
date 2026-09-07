@@ -1,6 +1,153 @@
 {
   "schema_version": 1,
   "product": "QSpline",
-  "latest": null,
-  "releases": []
+  "trust": {
+    "checksum": "sha256",
+    "manifest_signature": "Ed25519 detached signature over exact JSON bytes",
+    "signature_encoding": "base64"
+  },
+  "latest": {
+    "version": "0.1.4-beta.1",
+    "build": 5,
+    "tag": "v0.1.4-beta.1-5",
+    "channel": "beta",
+    "assets": [
+      {
+        "platform": "linux",
+        "architecture": "x86_64",
+        "format": "AppImage",
+        "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
+        "bytes": 55417336,
+        "sha256": "0f9611f933da740ebf2018e2655a811e17e69599e864b0d13210467c6b152910",
+        "minimum_system": "glibc 2.35 and Git 2.39"
+      },
+      {
+        "platform": "linux",
+        "architecture": "x86_64",
+        "format": "tar.gz",
+        "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
+        "bytes": 60340757,
+        "sha256": "ab79b3b971110a25d08c1d257293255b2acfc23e4bec40da9d793ffc0e161bdd",
+        "minimum_system": "glibc 2.35 and Git 2.39"
+      },
+      {
+        "platform": "macos",
+        "architecture": "arm64",
+        "format": "dmg",
+        "file": "QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
+        "bytes": 99594594,
+        "sha256": "76bb208326db22736f83ef988bd086a18f761aeeda49ad3f7acfb10647a9616b",
+        "minimum_system": "macOS 13.0 and Git 2.39"
+      },
+      {
+        "platform": "windows",
+        "architecture": "x86_64",
+        "format": "msi",
+        "file": "QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
+        "bytes": 39273058,
+        "sha256": "d3acdd415c04a5461d044e2fe413626c9e886e60ec30a61a5c1f41d4287b991e",
+        "minimum_system": "Windows 10 version 1809 and Git 2.39"
+      },
+      {
+        "platform": "linux",
+        "architecture": "x86_64",
+        "format": "rpm",
+        "file": "qspline-0.1.4-beta.1-5.x86_64.rpm",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline-0.1.4-beta.1-5.x86_64.rpm",
+        "bytes": 45221037,
+        "sha256": "c824156bffee45ce7825b2dca97439bf785baeb055df24a03d77954da85bacdd",
+        "minimum_system": "glibc 2.35 and Git 2.39"
+      },
+      {
+        "platform": "linux",
+        "architecture": "x86_64",
+        "format": "deb",
+        "file": "qspline_0.1.4-beta.1-5_amd64.deb",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline_0.1.4-beta.1-5_amd64.deb",
+        "bytes": 41085584,
+        "sha256": "272b6beea515556e6533e46913f27464344f84712fc55a645a30d6095278852e",
+        "minimum_system": "glibc 2.35 and Git 2.39"
+      }
+    ],
+    "notes": [
+      "Fix Windows release builds losing the Qt SDK path between CI steps. Export the pinned qmake explicitly, write runner paths without a byte-order mark, and verify Qt before Cargo."
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.1.4-beta.1",
+      "build": 5,
+      "tag": "v0.1.4-beta.1-5",
+      "channel": "beta",
+      "assets": [
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "AppImage",
+          "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
+          "bytes": 55417336,
+          "sha256": "0f9611f933da740ebf2018e2655a811e17e69599e864b0d13210467c6b152910",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "tar.gz",
+          "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
+          "bytes": 60340757,
+          "sha256": "ab79b3b971110a25d08c1d257293255b2acfc23e4bec40da9d793ffc0e161bdd",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "macos",
+          "architecture": "arm64",
+          "format": "dmg",
+          "file": "QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
+          "bytes": 99594594,
+          "sha256": "76bb208326db22736f83ef988bd086a18f761aeeda49ad3f7acfb10647a9616b",
+          "minimum_system": "macOS 13.0 and Git 2.39"
+        },
+        {
+          "platform": "windows",
+          "architecture": "x86_64",
+          "format": "msi",
+          "file": "QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
+          "bytes": 39273058,
+          "sha256": "d3acdd415c04a5461d044e2fe413626c9e886e60ec30a61a5c1f41d4287b991e",
+          "minimum_system": "Windows 10 version 1809 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "rpm",
+          "file": "qspline-0.1.4-beta.1-5.x86_64.rpm",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline-0.1.4-beta.1-5.x86_64.rpm",
+          "bytes": 45221037,
+          "sha256": "c824156bffee45ce7825b2dca97439bf785baeb055df24a03d77954da85bacdd",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "deb",
+          "file": "qspline_0.1.4-beta.1-5_amd64.deb",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline_0.1.4-beta.1-5_amd64.deb",
+          "bytes": 41085584,
+          "sha256": "272b6beea515556e6533e46913f27464344f84712fc55a645a30d6095278852e",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        }
+      ],
+      "notes": [
+        "Fix Windows release builds losing the Qt SDK path between CI steps. Export the pinned qmake explicitly, write runner paths without a byte-order mark, and verify Qt before Cargo."
+      ]
+    }
+  ]
 }
