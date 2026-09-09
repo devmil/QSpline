@@ -7,77 +7,148 @@
     "signature_encoding": "base64"
   },
   "latest": {
-    "version": "0.1.11-beta.1",
-    "build": 12,
-    "tag": "v0.1.11-beta.1-12",
+    "version": "0.1.12-beta.1",
+    "build": 13,
+    "tag": "v0.1.12-beta.1-13",
     "channel": "beta",
     "assets": [
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "AppImage",
-        "file": "QSpline-0.1.11-beta.1-12-linux-x86_64.AppImage",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-linux-x86_64.AppImage",
-        "bytes": 49236472,
-        "sha256": "bf806c0201feb1f5e2b39c77fbca6e25584ef8db31b226f89ed1f2a30f0588db",
+        "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
+        "bytes": 49248760,
+        "sha256": "43045d18aec46d77eadfec860a8f6c8b3dffbeab4fed5584e406fa852facc3d9",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "tar.gz",
-        "file": "QSpline-0.1.11-beta.1-12-linux-x86_64.tar.gz",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-linux-x86_64.tar.gz",
-        "bytes": 53380123,
-        "sha256": "28b9488eabbd98c546d89a2b1d1c0b732a92628129016d22fe5a82d58fb4b3fe",
+        "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
+        "bytes": 53383570,
+        "sha256": "d99e0a1cd301b21cd1f82f5aa8103f200525a9eb35321da029d69bb6be58b5d1",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "macos",
         "architecture": "arm64",
         "format": "dmg",
-        "file": "QSpline-0.1.11-beta.1-12-macos-arm64.dmg",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-macos-arm64.dmg",
-        "bytes": 83312091,
-        "sha256": "afdae2ef04a60176b7c754d13e0cf1f61ab01a7d29d6414ba01956a0c28dd033",
+        "file": "QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
+        "bytes": 83309338,
+        "sha256": "b56d8d55ad80d449b359835061adac1bceb3fb28e106798fe7b451048dac4b0d",
         "minimum_system": "macOS 13.0 and Git 2.39"
       },
       {
         "platform": "windows",
         "architecture": "x86_64",
         "format": "msi",
-        "file": "QSpline-0.1.11-beta.1-12-windows-x86_64.msi",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-windows-x86_64.msi",
-        "bytes": 39281253,
-        "sha256": "a4bd991883a9a9ad00052d329d27da989efa933be6efb4c24a9192ef97589c3c",
+        "file": "QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
+        "bytes": 39289445,
+        "sha256": "35770636dc1c7ba51bcaddbc138cb70fc149b69080b7ed4f52d978f0778b2075",
         "minimum_system": "Windows 10 version 1809 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "rpm",
-        "file": "qspline-0.1.11-beta.1-12.x86_64.rpm",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/qspline-0.1.11-beta.1-12.x86_64.rpm",
-        "bytes": 53158847,
-        "sha256": "d6431898e2b6eb6d0c751371d4b71d6b81fd66964682a0746edd9f5c2f6b1050",
+        "file": "qspline-0.1.12-beta.1-13.x86_64.rpm",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline-0.1.12-beta.1-13.x86_64.rpm",
+        "bytes": 53144601,
+        "sha256": "e9ff021a5d9a1fea405d8455804bff79bde38f9fcc54bd4427209198ed9143a3",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "deb",
-        "file": "qspline_0.1.11-beta.1-12_amd64.deb",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/qspline_0.1.11-beta.1-12_amd64.deb",
-        "bytes": 35155388,
-        "sha256": "d470324cdd6b2685e150d4e07ad94bc5173d5fce0bae79ef40294a3584f83cea",
+        "file": "qspline_0.1.12-beta.1-13_amd64.deb",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline_0.1.12-beta.1-13_amd64.deb",
+        "bytes": 35153712,
+        "sha256": "693fde7fa18a5d50be135eaffce1958d5535e38603df09006bb51873ed7cf590",
         "minimum_system": "glibc 2.35 and Git 2.39"
       }
     ],
     "notes": [
-      "Remove QSpline's redundant release-size ceilings and trim Qt Quick Controls styles that the embedded Basic-style configuration cannot select."
+      "Stop RPM packages from claiming global build-ID links for private bundled libraries, allowing QSpline to coexist with other self-contained Qt apps."
     ]
   },
   "releases": [
+    {
+      "version": "0.1.12-beta.1",
+      "build": 13,
+      "tag": "v0.1.12-beta.1-13",
+      "channel": "beta",
+      "assets": [
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "AppImage",
+          "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
+          "bytes": 49248760,
+          "sha256": "43045d18aec46d77eadfec860a8f6c8b3dffbeab4fed5584e406fa852facc3d9",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "tar.gz",
+          "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
+          "bytes": 53383570,
+          "sha256": "d99e0a1cd301b21cd1f82f5aa8103f200525a9eb35321da029d69bb6be58b5d1",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "macos",
+          "architecture": "arm64",
+          "format": "dmg",
+          "file": "QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
+          "bytes": 83309338,
+          "sha256": "b56d8d55ad80d449b359835061adac1bceb3fb28e106798fe7b451048dac4b0d",
+          "minimum_system": "macOS 13.0 and Git 2.39"
+        },
+        {
+          "platform": "windows",
+          "architecture": "x86_64",
+          "format": "msi",
+          "file": "QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
+          "bytes": 39289445,
+          "sha256": "35770636dc1c7ba51bcaddbc138cb70fc149b69080b7ed4f52d978f0778b2075",
+          "minimum_system": "Windows 10 version 1809 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "rpm",
+          "file": "qspline-0.1.12-beta.1-13.x86_64.rpm",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline-0.1.12-beta.1-13.x86_64.rpm",
+          "bytes": 53144601,
+          "sha256": "e9ff021a5d9a1fea405d8455804bff79bde38f9fcc54bd4427209198ed9143a3",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "deb",
+          "file": "qspline_0.1.12-beta.1-13_amd64.deb",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline_0.1.12-beta.1-13_amd64.deb",
+          "bytes": 35153712,
+          "sha256": "693fde7fa18a5d50be135eaffce1958d5535e38603df09006bb51873ed7cf590",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        }
+      ],
+      "notes": [
+        "Stop RPM packages from claiming global build-ID links for private bundled libraries, allowing QSpline to coexist with other self-contained Qt apps."
+      ]
+    },
     {
       "version": "0.1.11-beta.1",
       "build": 12,
