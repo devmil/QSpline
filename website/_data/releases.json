@@ -7,77 +7,174 @@
     "signature_encoding": "base64"
   },
   "latest": {
-    "version": "0.1.12-beta.1",
-    "build": 13,
-    "tag": "v0.1.12-beta.1-13",
+    "version": "0.1.13-beta.1",
+    "build": 14,
+    "tag": "v0.1.13-beta.1-14",
     "channel": "beta",
     "assets": [
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "AppImage",
-        "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
-        "bytes": 49248760,
-        "sha256": "43045d18aec46d77eadfec860a8f6c8b3dffbeab4fed5584e406fa852facc3d9",
+        "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
+        "bytes": 49396216,
+        "sha256": "45d9492d8c8d2d30f68e970dd30d353de72a459210caf4188c6a9183eb53fb9e",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "tar.gz",
-        "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
-        "bytes": 53383570,
-        "sha256": "d99e0a1cd301b21cd1f82f5aa8103f200525a9eb35321da029d69bb6be58b5d1",
+        "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
+        "bytes": 53564164,
+        "sha256": "0836d5b394b246e36ebadb45e4f56a16e8a2dd369d992293dd633cdb3852ebe4",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "macos",
         "architecture": "arm64",
         "format": "dmg",
-        "file": "QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
-        "bytes": 83309338,
-        "sha256": "b56d8d55ad80d449b359835061adac1bceb3fb28e106798fe7b451048dac4b0d",
+        "file": "QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
+        "bytes": 83466005,
+        "sha256": "b830701f6c38d0ad5ee69fb01b3f848e48402620435346e7f241d19e8f6fe81a",
         "minimum_system": "macOS 13.0 and Git 2.39"
       },
       {
         "platform": "windows",
         "architecture": "x86_64",
         "format": "msi",
-        "file": "QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
-        "bytes": 39289445,
-        "sha256": "35770636dc1c7ba51bcaddbc138cb70fc149b69080b7ed4f52d978f0778b2075",
+        "file": "QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
+        "bytes": 39404133,
+        "sha256": "d9afa0c9cc53b81a94d4aa1b034dbf8d60c28f2d0ef1d7347cc672de7e8cf171",
         "minimum_system": "Windows 10 version 1809 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "rpm",
-        "file": "qspline-0.1.12-beta.1-13.x86_64.rpm",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline-0.1.12-beta.1-13.x86_64.rpm",
-        "bytes": 53144601,
-        "sha256": "e9ff021a5d9a1fea405d8455804bff79bde38f9fcc54bd4427209198ed9143a3",
+        "file": "qspline-0.1.13-beta.1-14.x86_64.rpm",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline-0.1.13-beta.1-14.x86_64.rpm",
+        "bytes": 53318011,
+        "sha256": "b6eba4db5ff1fc9abba54f23b852b1fa95095a1bf2fc9fe76c5f95b67b2aa80c",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "deb",
-        "file": "qspline_0.1.12-beta.1-13_amd64.deb",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline_0.1.12-beta.1-13_amd64.deb",
-        "bytes": 35153712,
-        "sha256": "693fde7fa18a5d50be135eaffce1958d5535e38603df09006bb51873ed7cf590",
+        "file": "qspline_0.1.13-beta.1-14_amd64.deb",
+        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline_0.1.13-beta.1-14_amd64.deb",
+        "bytes": 35270700,
+        "sha256": "37d6abcd8a690a41f1daccb8a9cf4df0019a814053884667e60f72cce23f5378",
         "minimum_system": "glibc 2.35 and Git 2.39"
       }
     ],
     "notes": [
-      "Stop RPM packages from claiming global build-ID links for private bundled libraries, allowing QSpline to coexist with other self-contained Qt apps."
+      "Show initial history while LFS and watcher setup finish, preserve hydrated rows when the complete scan arrives, reuse topology lane reservations and retained Qt rows, and hydrate background history in bounded 4,096-row publications. Wake process and history collectors when results arrive instead of waiting for periodic polling. Validate refreshed decoration identities with a lookup set instead of scanning the full history for every row.",
+      "Reduce history loading overhead by avoiding discarded graph deltas, redundant layout-input and retained-row copies, repeated validation of cached projections, and complete metadata-map copies during successful page acceptance.",
+      "Prevent graph revision rejections after background history append, clear removed branch markers from typed filter state, and avoid reporting initial graph sizing as a loading error.",
+      "Reuse prepared history rows across page appends and drain active Git output without an artificial polling delay while retaining bounded transport and cancellation checks.",
+      "Restore each repository's branch filter and focus after restart, and save explicit clearing.",
+      "Keep scrolling graph geometry synchronized with history rows and suspend lane-hover work during wheel and touchpad input.",
+      "Fix branch focus after more than 4,096 history rows have loaded by keeping filter requests within the bounded query page size, independently of the loaded repository size.",
+      "Repair large-repository History end to end: load complete topology and refs independently from bounded summaries, retain commits with huge bodies through typed fallbacks, resolve branch navigation and filtering against the complete index, publish sparse coherent selection updates, expose a complete keyboard-accessible branch picker, and integrate graph lanes, ref labels, and subjects while keeping author, hash, and date pinned at the right.",
+      "Keep huge, branch-heavy graphs responsive across lazy page boundaries: preserve append acknowledgements, resolve deferred branch filters and jumps, continue unresolved parent lines, prefetch before fast scrolling reaches the tail, and avoid an incremental-load shimmer overlay.",
+      "Increase shared list scrolling speed for touchpads and mouse wheels while retaining bounded, virtualized position updates.",
+      "Keep merge-heavy graphs connected while older history pages load by patching only the existing rows whose cross-page edges changed, without rejecting a distant but bounded update range.",
+      "Display Git LFS paths as an expandable folder tree instead of repeating full paths in a flat, truncated sidebar list.",
+      "Keep bounded all-reference history pages renderable when thousands of newer ref tips place the checked-out commit beyond the first page, instead of leaving History stuck loading forever.",
+      "Use the native repository folder picker on every platform, create each picker synchronously, and destroy it on close so Linux does not strand the GUI thread while loading Qt's fallback folder-model plugin on the first Open click."
     ]
   },
   "releases": [
+    {
+      "version": "0.1.13-beta.1",
+      "build": 14,
+      "tag": "v0.1.13-beta.1-14",
+      "channel": "beta",
+      "assets": [
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "AppImage",
+          "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
+          "bytes": 49396216,
+          "sha256": "45d9492d8c8d2d30f68e970dd30d353de72a459210caf4188c6a9183eb53fb9e",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "tar.gz",
+          "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
+          "bytes": 53564164,
+          "sha256": "0836d5b394b246e36ebadb45e4f56a16e8a2dd369d992293dd633cdb3852ebe4",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "macos",
+          "architecture": "arm64",
+          "format": "dmg",
+          "file": "QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
+          "bytes": 83466005,
+          "sha256": "b830701f6c38d0ad5ee69fb01b3f848e48402620435346e7f241d19e8f6fe81a",
+          "minimum_system": "macOS 13.0 and Git 2.39"
+        },
+        {
+          "platform": "windows",
+          "architecture": "x86_64",
+          "format": "msi",
+          "file": "QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
+          "bytes": 39404133,
+          "sha256": "d9afa0c9cc53b81a94d4aa1b034dbf8d60c28f2d0ef1d7347cc672de7e8cf171",
+          "minimum_system": "Windows 10 version 1809 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "rpm",
+          "file": "qspline-0.1.13-beta.1-14.x86_64.rpm",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline-0.1.13-beta.1-14.x86_64.rpm",
+          "bytes": 53318011,
+          "sha256": "b6eba4db5ff1fc9abba54f23b852b1fa95095a1bf2fc9fe76c5f95b67b2aa80c",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "deb",
+          "file": "qspline_0.1.13-beta.1-14_amd64.deb",
+          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline_0.1.13-beta.1-14_amd64.deb",
+          "bytes": 35270700,
+          "sha256": "37d6abcd8a690a41f1daccb8a9cf4df0019a814053884667e60f72cce23f5378",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        }
+      ],
+      "notes": [
+        "Show initial history while LFS and watcher setup finish, preserve hydrated rows when the complete scan arrives, reuse topology lane reservations and retained Qt rows, and hydrate background history in bounded 4,096-row publications. Wake process and history collectors when results arrive instead of waiting for periodic polling. Validate refreshed decoration identities with a lookup set instead of scanning the full history for every row.",
+        "Reduce history loading overhead by avoiding discarded graph deltas, redundant layout-input and retained-row copies, repeated validation of cached projections, and complete metadata-map copies during successful page acceptance.",
+        "Prevent graph revision rejections after background history append, clear removed branch markers from typed filter state, and avoid reporting initial graph sizing as a loading error.",
+        "Reuse prepared history rows across page appends and drain active Git output without an artificial polling delay while retaining bounded transport and cancellation checks.",
+        "Restore each repository's branch filter and focus after restart, and save explicit clearing.",
+        "Keep scrolling graph geometry synchronized with history rows and suspend lane-hover work during wheel and touchpad input.",
+        "Fix branch focus after more than 4,096 history rows have loaded by keeping filter requests within the bounded query page size, independently of the loaded repository size.",
+        "Repair large-repository History end to end: load complete topology and refs independently from bounded summaries, retain commits with huge bodies through typed fallbacks, resolve branch navigation and filtering against the complete index, publish sparse coherent selection updates, expose a complete keyboard-accessible branch picker, and integrate graph lanes, ref labels, and subjects while keeping author, hash, and date pinned at the right.",
+        "Keep huge, branch-heavy graphs responsive across lazy page boundaries: preserve append acknowledgements, resolve deferred branch filters and jumps, continue unresolved parent lines, prefetch before fast scrolling reaches the tail, and avoid an incremental-load shimmer overlay.",
+        "Increase shared list scrolling speed for touchpads and mouse wheels while retaining bounded, virtualized position updates.",
+        "Keep merge-heavy graphs connected while older history pages load by patching only the existing rows whose cross-page edges changed, without rejecting a distant but bounded update range.",
+        "Display Git LFS paths as an expandable folder tree instead of repeating full paths in a flat, truncated sidebar list.",
+        "Keep bounded all-reference history pages renderable when thousands of newer ref tips place the checked-out commit beyond the first page, instead of leaving History stuck loading forever.",
+        "Use the native repository folder picker on every platform, create each picker synchronously, and destroy it on close so Linux does not strand the GUI thread while loading Qt's fallback folder-model plugin on the first Open click."
+      ]
+    },
     {
       "version": "0.1.12-beta.1",
       "build": 13,
