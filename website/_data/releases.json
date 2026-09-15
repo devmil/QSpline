@@ -7,78 +7,148 @@
     "signature_encoding": "base64"
   },
   "latest": {
-    "version": "0.1.21-beta.1",
-    "build": 22,
-    "tag": "v0.1.21-beta.1-22",
+    "version": "0.1.23-beta.1",
+    "build": 24,
+    "tag": "v0.1.23-beta.1-24",
     "channel": "beta",
     "assets": [
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "AppImage",
-        "file": "QSpline-0.1.21-beta.1-22-linux-x86_64.AppImage",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.AppImage",
-        "bytes": 49506808,
-        "sha256": "d6cafcd1b5a0e79e6860c3c5d336c5bb6269914e8239790bf870775f3ef3599a",
+        "file": "QSpline-0.1.23-beta.1-24-linux-x86_64.AppImage",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-linux-x86_64.AppImage",
+        "bytes": 49510904,
+        "sha256": "1615ca6320819f1d3f0cfa6c91b2782e18d8ec216f2f01391c852558a3a0703a",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "tar.gz",
-        "file": "QSpline-0.1.21-beta.1-22-linux-x86_64.tar.gz",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.tar.gz",
-        "bytes": 53697357,
-        "sha256": "9898e95ca5f5626d729846c10d5a6e5d026304561aa596ddfc56cde29973dd03",
+        "file": "QSpline-0.1.23-beta.1-24-linux-x86_64.tar.gz",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-linux-x86_64.tar.gz",
+        "bytes": 53701169,
+        "sha256": "2e24e4f491d40a0381571603edbbc596181f0a773f78672b502488a8c8f79947",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "macos",
         "architecture": "arm64",
         "format": "dmg",
-        "file": "QSpline-0.1.21-beta.1-22-macos-arm64.dmg",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-macos-arm64.dmg",
-        "bytes": 83587336,
-        "sha256": "832018daddf3d8aa4cc177540573d6a3f8880b45aac33148a732dc2453e09e57",
+        "file": "QSpline-0.1.23-beta.1-24-macos-arm64.dmg",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-macos-arm64.dmg",
+        "bytes": 83587658,
+        "sha256": "01f66ada73132e66ec78f7d7177e834425cce62d24ce393a16374d62da2aec81",
         "minimum_system": "macOS 13.0 and Git 2.39"
       },
       {
         "platform": "windows",
         "architecture": "x86_64",
         "format": "msi",
-        "file": "QSpline-0.1.21-beta.1-22-windows-x86_64.msi",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-windows-x86_64.msi",
+        "file": "QSpline-0.1.23-beta.1-24-windows-x86_64.msi",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-windows-x86_64.msi",
         "bytes": 39514725,
-        "sha256": "2e97158c395b8a0ad286a990204c0dec84fcbce390bfcb373b0389ce0bf959d1",
+        "sha256": "fefe2401564c6885884659abdb9fa5101df20370503bc1f6ddb37e7332bf77e9",
         "minimum_system": "Windows 10 version 1809 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "rpm",
-        "file": "qspline-0.1.21-beta.1-22.x86_64.rpm",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/qspline-0.1.21-beta.1-22.x86_64.rpm",
-        "bytes": 53435592,
-        "sha256": "0356555a0042f3c787b520c70694da058d6c5e05c1780aa4738885f80ac25038",
+        "file": "qspline-0.1.23-beta.1-24.x86_64.rpm",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/qspline-0.1.23-beta.1-24.x86_64.rpm",
+        "bytes": 53435422,
+        "sha256": "77a350bb38f37f50442a0b84ca63615ee1bd4152680e16f0d9c9deee50a733df",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "deb",
-        "file": "qspline_0.1.21-beta.1-22_amd64.deb",
-        "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/qspline_0.1.21-beta.1-22_amd64.deb",
-        "bytes": 35359808,
-        "sha256": "1d60862efabfa51d4d8220f932ad1accc1276d4b056ef662ff56e0f6fff58e75",
+        "file": "qspline_0.1.23-beta.1-24_amd64.deb",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/qspline_0.1.23-beta.1-24_amd64.deb",
+        "bytes": 35361752,
+        "sha256": "29f085a4a043aa16cecb649c7ddc52b82026c9ab1b59c6f800f5599afef148bc",
         "minimum_system": "glibc 2.35 and Git 2.39"
       }
     ],
     "notes": [
-      "Add touchpad fling momentum for Qt Wayland sessions, including streams exposed through Qt's generic seat pointer and lists covered by focus or graph-renderer overlays, while avoiding X11, macOS, Windows, native momentum streams, and reduced-motion mode.",
-      "Make Finder-launched macOS builds import the user's login-shell `PATH` so Git filters such as Git LFS remain available, add recoverable discard-all for unstaged files, and identify running operations on their action buttons and in the operation center."
+      "Keep five releases per channel so publication does not depend on packages outside the supported download window."
     ]
   },
   "releases": [
+    {
+      "version": "0.1.23-beta.1",
+      "build": 24,
+      "tag": "v0.1.23-beta.1-24",
+      "channel": "beta",
+      "assets": [
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "AppImage",
+          "file": "QSpline-0.1.23-beta.1-24-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-linux-x86_64.AppImage",
+          "bytes": 49510904,
+          "sha256": "1615ca6320819f1d3f0cfa6c91b2782e18d8ec216f2f01391c852558a3a0703a",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "tar.gz",
+          "file": "QSpline-0.1.23-beta.1-24-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-linux-x86_64.tar.gz",
+          "bytes": 53701169,
+          "sha256": "2e24e4f491d40a0381571603edbbc596181f0a773f78672b502488a8c8f79947",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "macos",
+          "architecture": "arm64",
+          "format": "dmg",
+          "file": "QSpline-0.1.23-beta.1-24-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-macos-arm64.dmg",
+          "bytes": 83587658,
+          "sha256": "01f66ada73132e66ec78f7d7177e834425cce62d24ce393a16374d62da2aec81",
+          "minimum_system": "macOS 13.0 and Git 2.39"
+        },
+        {
+          "platform": "windows",
+          "architecture": "x86_64",
+          "format": "msi",
+          "file": "QSpline-0.1.23-beta.1-24-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/QSpline-0.1.23-beta.1-24-windows-x86_64.msi",
+          "bytes": 39514725,
+          "sha256": "fefe2401564c6885884659abdb9fa5101df20370503bc1f6ddb37e7332bf77e9",
+          "minimum_system": "Windows 10 version 1809 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "rpm",
+          "file": "qspline-0.1.23-beta.1-24.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/qspline-0.1.23-beta.1-24.x86_64.rpm",
+          "bytes": 53435422,
+          "sha256": "77a350bb38f37f50442a0b84ca63615ee1bd4152680e16f0d9c9deee50a733df",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "deb",
+          "file": "qspline_0.1.23-beta.1-24_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.23-beta.1-24/qspline_0.1.23-beta.1-24_amd64.deb",
+          "bytes": 35361752,
+          "sha256": "29f085a4a043aa16cecb649c7ddc52b82026c9ab1b59c6f800f5599afef148bc",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        }
+      ],
+      "notes": [
+        "Keep five releases per channel so publication does not depend on packages outside the supported download window."
+      ]
+    },
     {
       "version": "0.1.21-beta.1",
       "build": 22,
@@ -90,7 +160,7 @@
           "architecture": "x86_64",
           "format": "AppImage",
           "file": "QSpline-0.1.21-beta.1-22-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.AppImage",
           "bytes": 49506808,
           "sha256": "d6cafcd1b5a0e79e6860c3c5d336c5bb6269914e8239790bf870775f3ef3599a",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -100,7 +170,7 @@
           "architecture": "x86_64",
           "format": "tar.gz",
           "file": "QSpline-0.1.21-beta.1-22-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-linux-x86_64.tar.gz",
           "bytes": 53697357,
           "sha256": "9898e95ca5f5626d729846c10d5a6e5d026304561aa596ddfc56cde29973dd03",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -110,7 +180,7 @@
           "architecture": "arm64",
           "format": "dmg",
           "file": "QSpline-0.1.21-beta.1-22-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-macos-arm64.dmg",
           "bytes": 83587336,
           "sha256": "832018daddf3d8aa4cc177540573d6a3f8880b45aac33148a732dc2453e09e57",
           "minimum_system": "macOS 13.0 and Git 2.39"
@@ -120,7 +190,7 @@
           "architecture": "x86_64",
           "format": "msi",
           "file": "QSpline-0.1.21-beta.1-22-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/QSpline-0.1.21-beta.1-22-windows-x86_64.msi",
           "bytes": 39514725,
           "sha256": "2e97158c395b8a0ad286a990204c0dec84fcbce390bfcb373b0389ce0bf959d1",
           "minimum_system": "Windows 10 version 1809 and Git 2.39"
@@ -130,7 +200,7 @@
           "architecture": "x86_64",
           "format": "rpm",
           "file": "qspline-0.1.21-beta.1-22.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/qspline-0.1.21-beta.1-22.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/qspline-0.1.21-beta.1-22.x86_64.rpm",
           "bytes": 53435592,
           "sha256": "0356555a0042f3c787b520c70694da058d6c5e05c1780aa4738885f80ac25038",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -140,7 +210,7 @@
           "architecture": "x86_64",
           "format": "deb",
           "file": "qspline_0.1.21-beta.1-22_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.21-beta.1-22/qspline_0.1.21-beta.1-22_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.21-beta.1-22/qspline_0.1.21-beta.1-22_amd64.deb",
           "bytes": 35359808,
           "sha256": "1d60862efabfa51d4d8220f932ad1accc1276d4b056ef662ff56e0f6fff58e75",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -162,7 +232,7 @@
           "architecture": "x86_64",
           "format": "AppImage",
           "file": "QSpline-0.1.20-beta.1-21-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-linux-x86_64.AppImage",
           "bytes": 49494520,
           "sha256": "3736ac79744eb1dba18abd2b49116f65968713ae02438a1597ae7b8894856dec",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -172,7 +242,7 @@
           "architecture": "x86_64",
           "format": "tar.gz",
           "file": "QSpline-0.1.20-beta.1-21-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-linux-x86_64.tar.gz",
           "bytes": 53681728,
           "sha256": "7ab0aadf27ae961f6955b0f4e3237162f4a210ae2639683f8bfc18c5b4eeba64",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -182,7 +252,7 @@
           "architecture": "arm64",
           "format": "dmg",
           "file": "QSpline-0.1.20-beta.1-21-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-macos-arm64.dmg",
           "bytes": 83574138,
           "sha256": "668460627ed057fc48833aa04a0a613d58951dcdb69d4e17271248ca4d74697c",
           "minimum_system": "macOS 13.0 and Git 2.39"
@@ -192,7 +262,7 @@
           "architecture": "x86_64",
           "format": "msi",
           "file": "QSpline-0.1.20-beta.1-21-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/QSpline-0.1.20-beta.1-21-windows-x86_64.msi",
           "bytes": 39494245,
           "sha256": "332f8fb583dacd617edb8965a0c874bc1a000b69c2563a331b5c2f629f82c31d",
           "minimum_system": "Windows 10 version 1809 and Git 2.39"
@@ -202,7 +272,7 @@
           "architecture": "x86_64",
           "format": "rpm",
           "file": "qspline-0.1.20-beta.1-21.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/qspline-0.1.20-beta.1-21.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/qspline-0.1.20-beta.1-21.x86_64.rpm",
           "bytes": 53430480,
           "sha256": "658ac465e41fdcb0bb634b78c3c0facb0bb9dad6ef728338dc9c046f1fc6479b",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -212,7 +282,7 @@
           "architecture": "x86_64",
           "format": "deb",
           "file": "qspline_0.1.20-beta.1-21_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.20-beta.1-21/qspline_0.1.20-beta.1-21_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.20-beta.1-21/qspline_0.1.20-beta.1-21_amd64.deb",
           "bytes": 35344892,
           "sha256": "0e738a57f557f0ff198a6f4afc6853a05de3748be9b8b0c354c3247c180fd93f",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -234,7 +304,7 @@
           "architecture": "x86_64",
           "format": "AppImage",
           "file": "QSpline-0.1.18-beta.1-19-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-linux-x86_64.AppImage",
           "bytes": 49453560,
           "sha256": "9352675e818a3cb5348f61cebc8307ea312a9144d3c771ba4cf14f27f57974a5",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -244,7 +314,7 @@
           "architecture": "x86_64",
           "format": "tar.gz",
           "file": "QSpline-0.1.18-beta.1-19-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-linux-x86_64.tar.gz",
           "bytes": 53609791,
           "sha256": "c3479d03a05dfdde807549049dd97bae7e0621a87e05ad8b00df910e5db9d722",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -254,7 +324,7 @@
           "architecture": "arm64",
           "format": "dmg",
           "file": "QSpline-0.1.18-beta.1-19-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-macos-arm64.dmg",
           "bytes": 83502582,
           "sha256": "bcfa6dfa9361b361bd46c43010ab4ba126e7326e3834b2b1e9fc8f737517beba",
           "minimum_system": "macOS 13.0 and Git 2.39"
@@ -264,7 +334,7 @@
           "architecture": "x86_64",
           "format": "msi",
           "file": "QSpline-0.1.18-beta.1-19-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/QSpline-0.1.18-beta.1-19-windows-x86_64.msi",
           "bytes": 39428709,
           "sha256": "846b6e477260faea9267a03236aec3d8e39c4eeeaae9236401903de83707fc90",
           "minimum_system": "Windows 10 version 1809 and Git 2.39"
@@ -274,7 +344,7 @@
           "architecture": "x86_64",
           "format": "rpm",
           "file": "qspline-0.1.18-beta.1-19.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/qspline-0.1.18-beta.1-19.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/qspline-0.1.18-beta.1-19.x86_64.rpm",
           "bytes": 53368284,
           "sha256": "5542eddb79d3c7e5a254774fc5f436cb06ca05f19aafc1f66ff53491a0999e57",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -284,7 +354,7 @@
           "architecture": "x86_64",
           "format": "deb",
           "file": "qspline_0.1.18-beta.1-19_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.18-beta.1-19/qspline_0.1.18-beta.1-19_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.18-beta.1-19/qspline_0.1.18-beta.1-19_amd64.deb",
           "bytes": 35297336,
           "sha256": "7ca123b7838c966b5f5cf5c7b057a4fedbc66530b4985c795ac939a59d862aea",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -307,7 +377,7 @@
           "architecture": "x86_64",
           "format": "AppImage",
           "file": "QSpline-0.1.17-beta.1-18-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-linux-x86_64.AppImage",
           "bytes": 49416696,
           "sha256": "67124adf9e1a025f0c67f4d8f30b5556c33eeda0bbc53e6cf7db4f42b985b73a",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -317,7 +387,7 @@
           "architecture": "x86_64",
           "format": "tar.gz",
           "file": "QSpline-0.1.17-beta.1-18-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-linux-x86_64.tar.gz",
           "bytes": 53585368,
           "sha256": "48e399fecd3d2f9f1ad5bdee7642b5f1c34f4c8e5e63a717f337a2dff73e888d",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -327,7 +397,7 @@
           "architecture": "arm64",
           "format": "dmg",
           "file": "QSpline-0.1.17-beta.1-18-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-macos-arm64.dmg",
           "bytes": 83475795,
           "sha256": "9b95411d7e5dd34e6694dfa5180b66e862468eb8483fa2d1000d1907c25ae138",
           "minimum_system": "macOS 13.0 and Git 2.39"
@@ -337,7 +407,7 @@
           "architecture": "x86_64",
           "format": "msi",
           "file": "QSpline-0.1.17-beta.1-18-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/QSpline-0.1.17-beta.1-18-windows-x86_64.msi",
           "bytes": 39416421,
           "sha256": "a06fbaeb15a4e60d2a0d18243d8cac78f7d4174c055de1371a02afb4dfbe9e3a",
           "minimum_system": "Windows 10 version 1809 and Git 2.39"
@@ -347,7 +417,7 @@
           "architecture": "x86_64",
           "format": "rpm",
           "file": "qspline-0.1.17-beta.1-18.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/qspline-0.1.17-beta.1-18.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/qspline-0.1.17-beta.1-18.x86_64.rpm",
           "bytes": 53347686,
           "sha256": "fcc43af0f44fb1868a8a5927e486089e0cd44403aba3bce0cb9b6142d3b59dc7",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -357,7 +427,7 @@
           "architecture": "x86_64",
           "format": "deb",
           "file": "qspline_0.1.17-beta.1-18_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.17-beta.1-18/qspline_0.1.17-beta.1-18_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.17-beta.1-18/qspline_0.1.17-beta.1-18_amd64.deb",
           "bytes": 35287752,
           "sha256": "473f239b2d102223025e2e6ac8fa15a9a396128760e86258b704826b117c6b0c",
           "minimum_system": "glibc 2.35 and Git 2.39"
@@ -365,449 +435,6 @@
       ],
       "notes": [
         "Use the stash selector instead of its display message for sidebar actions, and open the selected stash commit in History with its details."
-      ]
-    },
-    {
-      "version": "0.1.16-beta.1",
-      "build": 17,
-      "tag": "v0.1.16-beta.1-17",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.16-beta.1-17-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/QSpline-0.1.16-beta.1-17-linux-x86_64.AppImage",
-          "bytes": 49404408,
-          "sha256": "e77ebbb74e734d41bfceeb46069c53d341f9aa6fb9e0ef25261eef9b1e823010",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.16-beta.1-17-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/QSpline-0.1.16-beta.1-17-linux-x86_64.tar.gz",
-          "bytes": 53589566,
-          "sha256": "c7415ca0995ac8bc7300b088f950df46d6e98ab4ac44a14383996bdd04bd797a",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.16-beta.1-17-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/QSpline-0.1.16-beta.1-17-macos-arm64.dmg",
-          "bytes": 83480961,
-          "sha256": "d461dbcc5abebe371af97de8281e65d2a8eebe0ffc90521484ccc66d935da64a",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.16-beta.1-17-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/QSpline-0.1.16-beta.1-17-windows-x86_64.msi",
-          "bytes": 39436901,
-          "sha256": "1e238b042626c636f4c55c7f3718ca86c35ae538e80fade480f968d3db0d4a5c",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.16-beta.1-17.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/qspline-0.1.16-beta.1-17.x86_64.rpm",
-          "bytes": 53345663,
-          "sha256": "a3a8c32ffcc144e52e93593574f598746ff86a930c67e0b9cfbd2b02dd44644f",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.16-beta.1-17_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.16-beta.1-17/qspline_0.1.16-beta.1-17_amd64.deb",
-          "bytes": 35287884,
-          "sha256": "d661bd45c254a43ce84eecff3832df60a42ccad663743576cd29cf92b4f6ae34",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "move build to faster linux runner"
-      ]
-    },
-    {
-      "version": "0.1.14-beta.1",
-      "build": 15,
-      "tag": "v0.1.14-beta.1-15",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.14-beta.1-15-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/QSpline-0.1.14-beta.1-15-linux-x86_64.AppImage",
-          "bytes": 49408504,
-          "sha256": "f6c63c786fdaf6438beff39f2730899fb9a3ad7fb3bf15d4215f1d8c4d0456ee",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.14-beta.1-15-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/QSpline-0.1.14-beta.1-15-linux-x86_64.tar.gz",
-          "bytes": 53592732,
-          "sha256": "900ec3e8e309aca9217aef3d4595c830621e5d0f401903fb4240e6ab369983da",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.14-beta.1-15-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/QSpline-0.1.14-beta.1-15-macos-arm64.dmg",
-          "bytes": 83473394,
-          "sha256": "f9251dbb09ebb3d30178adb993abe3a94df804042afcf28d80f8d8205eaa95c0",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.14-beta.1-15-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/QSpline-0.1.14-beta.1-15-windows-x86_64.msi",
-          "bytes": 39424613,
-          "sha256": "194bebf146e18c7f64f8cc046f2c1626f1c5299fc3da92e8f4eb241dfa54ffa8",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.14-beta.1-15.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/qspline-0.1.14-beta.1-15.x86_64.rpm",
-          "bytes": 53340295,
-          "sha256": "a193694b6dd1a80694340ab0a0b7872f68ec5b8d1da4e105065f8576257733d3",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.14-beta.1-15_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.14-beta.1-15/qspline_0.1.14-beta.1-15_amd64.deb",
-          "bytes": 35298084,
-          "sha256": "b7fda4111736cd782363ab0c4e064dc1150c097aec8414ad7ea1ff92b3d24dd5",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Restore macOS window dragging through a bounded native move region in the repository tab strip.",
-        "Publish collapsed untracked staging targets in the fast opening preview, keep a populated History graph free of loading shimmer while exact status finishes, and let foreground Git operations preempt that background work.",
-        "Use one native recursive FSEvents or ReadDirectoryChanges watch instead of walking and registering every non-ignored directory during macOS and Windows repository opening.",
-        "Keep active graph filters when navigating from the repository sidebar, revealing only the ancestry needed to connect the selected reference to the filtered graph.",
-        "Resume background commit-metadata hydration after graph queries and republish filtered rows as their subjects arrive, preventing message cells from remaining blank after repeated filters."
-      ]
-    },
-    {
-      "version": "0.1.13-beta.1",
-      "build": 14,
-      "tag": "v0.1.13-beta.1-14",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.AppImage",
-          "bytes": 49396216,
-          "sha256": "45d9492d8c8d2d30f68e970dd30d353de72a459210caf4188c6a9183eb53fb9e",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-linux-x86_64.tar.gz",
-          "bytes": 53564164,
-          "sha256": "0836d5b394b246e36ebadb45e4f56a16e8a2dd369d992293dd633cdb3852ebe4",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-macos-arm64.dmg",
-          "bytes": 83466005,
-          "sha256": "b830701f6c38d0ad5ee69fb01b3f848e48402620435346e7f241d19e8f6fe81a",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/QSpline-0.1.13-beta.1-14-windows-x86_64.msi",
-          "bytes": 39404133,
-          "sha256": "d9afa0c9cc53b81a94d4aa1b034dbf8d60c28f2d0ef1d7347cc672de7e8cf171",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.13-beta.1-14.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline-0.1.13-beta.1-14.x86_64.rpm",
-          "bytes": 53318011,
-          "sha256": "b6eba4db5ff1fc9abba54f23b852b1fa95095a1bf2fc9fe76c5f95b67b2aa80c",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.13-beta.1-14_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.13-beta.1-14/qspline_0.1.13-beta.1-14_amd64.deb",
-          "bytes": 35270700,
-          "sha256": "37d6abcd8a690a41f1daccb8a9cf4df0019a814053884667e60f72cce23f5378",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Show initial history while LFS and watcher setup finish, preserve hydrated rows when the complete scan arrives, reuse topology lane reservations and retained Qt rows, and hydrate background history in bounded 4,096-row publications. Wake process and history collectors when results arrive instead of waiting for periodic polling. Validate refreshed decoration identities with a lookup set instead of scanning the full history for every row.",
-        "Reduce history loading overhead by avoiding discarded graph deltas, redundant layout-input and retained-row copies, repeated validation of cached projections, and complete metadata-map copies during successful page acceptance.",
-        "Prevent graph revision rejections after background history append, clear removed branch markers from typed filter state, and avoid reporting initial graph sizing as a loading error.",
-        "Reuse prepared history rows across page appends and drain active Git output without an artificial polling delay while retaining bounded transport and cancellation checks.",
-        "Restore each repository's branch filter and focus after restart, and save explicit clearing.",
-        "Keep scrolling graph geometry synchronized with history rows and suspend lane-hover work during wheel and touchpad input.",
-        "Fix branch focus after more than 4,096 history rows have loaded by keeping filter requests within the bounded query page size, independently of the loaded repository size.",
-        "Repair large-repository History end to end: load complete topology and refs independently from bounded summaries, retain commits with huge bodies through typed fallbacks, resolve branch navigation and filtering against the complete index, publish sparse coherent selection updates, expose a complete keyboard-accessible branch picker, and integrate graph lanes, ref labels, and subjects while keeping author, hash, and date pinned at the right.",
-        "Keep huge, branch-heavy graphs responsive across lazy page boundaries: preserve append acknowledgements, resolve deferred branch filters and jumps, continue unresolved parent lines, prefetch before fast scrolling reaches the tail, and avoid an incremental-load shimmer overlay.",
-        "Increase shared list scrolling speed for touchpads and mouse wheels while retaining bounded, virtualized position updates.",
-        "Keep merge-heavy graphs connected while older history pages load by patching only the existing rows whose cross-page edges changed, without rejecting a distant but bounded update range.",
-        "Display Git LFS paths as an expandable folder tree instead of repeating full paths in a flat, truncated sidebar list.",
-        "Keep bounded all-reference history pages renderable when thousands of newer ref tips place the checked-out commit beyond the first page, instead of leaving History stuck loading forever.",
-        "Use the native repository folder picker on every platform, create each picker synchronously, and destroy it on close so Linux does not strand the GUI thread while loading Qt's fallback folder-model plugin on the first Open click."
-      ]
-    },
-    {
-      "version": "0.1.12-beta.1",
-      "build": 13,
-      "tag": "v0.1.12-beta.1-13",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.AppImage",
-          "bytes": 49248760,
-          "sha256": "43045d18aec46d77eadfec860a8f6c8b3dffbeab4fed5584e406fa852facc3d9",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-linux-x86_64.tar.gz",
-          "bytes": 53383570,
-          "sha256": "d99e0a1cd301b21cd1f82f5aa8103f200525a9eb35321da029d69bb6be58b5d1",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-macos-arm64.dmg",
-          "bytes": 83309338,
-          "sha256": "b56d8d55ad80d449b359835061adac1bceb3fb28e106798fe7b451048dac4b0d",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/QSpline-0.1.12-beta.1-13-windows-x86_64.msi",
-          "bytes": 39289445,
-          "sha256": "35770636dc1c7ba51bcaddbc138cb70fc149b69080b7ed4f52d978f0778b2075",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.12-beta.1-13.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline-0.1.12-beta.1-13.x86_64.rpm",
-          "bytes": 53144601,
-          "sha256": "e9ff021a5d9a1fea405d8455804bff79bde38f9fcc54bd4427209198ed9143a3",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.12-beta.1-13_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.12-beta.1-13/qspline_0.1.12-beta.1-13_amd64.deb",
-          "bytes": 35153712,
-          "sha256": "693fde7fa18a5d50be135eaffce1958d5535e38603df09006bb51873ed7cf590",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Stop RPM packages from claiming global build-ID links for private bundled libraries, allowing QSpline to coexist with other self-contained Qt apps."
-      ]
-    },
-    {
-      "version": "0.1.11-beta.1",
-      "build": 12,
-      "tag": "v0.1.11-beta.1-12",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.11-beta.1-12-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-linux-x86_64.AppImage",
-          "bytes": 49236472,
-          "sha256": "bf806c0201feb1f5e2b39c77fbca6e25584ef8db31b226f89ed1f2a30f0588db",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.11-beta.1-12-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-linux-x86_64.tar.gz",
-          "bytes": 53380123,
-          "sha256": "28b9488eabbd98c546d89a2b1d1c0b732a92628129016d22fe5a82d58fb4b3fe",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.11-beta.1-12-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-macos-arm64.dmg",
-          "bytes": 83312091,
-          "sha256": "afdae2ef04a60176b7c754d13e0cf1f61ab01a7d29d6414ba01956a0c28dd033",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.11-beta.1-12-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/QSpline-0.1.11-beta.1-12-windows-x86_64.msi",
-          "bytes": 39281253,
-          "sha256": "a4bd991883a9a9ad00052d329d27da989efa933be6efb4c24a9192ef97589c3c",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.11-beta.1-12.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/qspline-0.1.11-beta.1-12.x86_64.rpm",
-          "bytes": 53158847,
-          "sha256": "d6431898e2b6eb6d0c751371d4b71d6b81fd66964682a0746edd9f5c2f6b1050",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.11-beta.1-12_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.11-beta.1-12/qspline_0.1.11-beta.1-12_amd64.deb",
-          "bytes": 35155388,
-          "sha256": "d470324cdd6b2685e150d4e07ad94bc5173d5fce0bae79ef40294a3584f83cea",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Remove QSpline's redundant release-size ceilings and trim Qt Quick Controls styles that the embedded Basic-style configuration cannot select."
-      ]
-    },
-    {
-      "version": "0.1.4-beta.1",
-      "build": 5,
-      "tag": "v0.1.4-beta.1-5",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.AppImage",
-          "bytes": 55417336,
-          "sha256": "0f9611f933da740ebf2018e2655a811e17e69599e864b0d13210467c6b152910",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-linux-x86_64.tar.gz",
-          "bytes": 60340757,
-          "sha256": "ab79b3b971110a25d08c1d257293255b2acfc23e4bec40da9d793ffc0e161bdd",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-macos-arm64.dmg",
-          "bytes": 99594594,
-          "sha256": "76bb208326db22736f83ef988bd086a18f761aeeda49ad3f7acfb10647a9616b",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/QSpline-0.1.4-beta.1-5-windows-x86_64.msi",
-          "bytes": 39273058,
-          "sha256": "d3acdd415c04a5461d044e2fe413626c9e886e60ec30a61a5c1f41d4287b991e",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.4-beta.1-5.x86_64.rpm",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline-0.1.4-beta.1-5.x86_64.rpm",
-          "bytes": 45221037,
-          "sha256": "c824156bffee45ce7825b2dca97439bf785baeb055df24a03d77954da85bacdd",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.4-beta.1-5_amd64.deb",
-          "url": "https://code.lamers-cloud.de/mlamers/QSpline/releases/download/v0.1.4-beta.1-5/qspline_0.1.4-beta.1-5_amd64.deb",
-          "bytes": 41085584,
-          "sha256": "272b6beea515556e6533e46913f27464344f84712fc55a645a30d6095278852e",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Fix Windows release builds losing the Qt SDK path between CI steps. Export the pinned qmake explicitly, write runner paths without a byte-order mark, and verify Qt before Cargo."
       ]
     }
   ]
