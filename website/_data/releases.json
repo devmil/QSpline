@@ -7,81 +7,158 @@
     "signature_encoding": "base64"
   },
   "latest": {
-    "version": "0.2.4-beta.1",
-    "build": 31,
-    "tag": "v0.2.4-beta.1-31",
+    "version": "0.2.5-beta.1",
+    "build": 32,
+    "tag": "v0.2.5-beta.1-32",
     "channel": "beta",
     "assets": [
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "AppImage",
-        "file": "QSpline-0.2.4-beta.1-31-linux-x86_64.AppImage",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/QSpline-0.2.4-beta.1-31-linux-x86_64.AppImage",
-        "bytes": 49682936,
-        "sha256": "f9dcb2bd62d857c776b85c8a5c4558426d8dd51fb1d882da19db0f17ae68d88c",
+        "file": "QSpline-0.2.5-beta.1-32-linux-x86_64.AppImage",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-linux-x86_64.AppImage",
+        "bytes": 49678840,
+        "sha256": "80b2908b516b72e58d9818900c4a413b218f963166ecd99795ab0c5d7510351a",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "tar.gz",
-        "file": "QSpline-0.2.4-beta.1-31-linux-x86_64.tar.gz",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/QSpline-0.2.4-beta.1-31-linux-x86_64.tar.gz",
-        "bytes": 53879953,
-        "sha256": "20579f1589dc9c43dfec49f9b1feaee1eec62f2301d937f1698b99f7e265e58f",
+        "file": "QSpline-0.2.5-beta.1-32-linux-x86_64.tar.gz",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-linux-x86_64.tar.gz",
+        "bytes": 53895195,
+        "sha256": "94a08038ef493f526740b41375cfe72e260b9e10abd5bff7a5fba59d16ad29c8",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "macos",
         "architecture": "arm64",
         "format": "dmg",
-        "file": "QSpline-0.2.4-beta.1-31-macos-arm64.dmg",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/QSpline-0.2.4-beta.1-31-macos-arm64.dmg",
-        "bytes": 83709766,
-        "sha256": "91aeb3f923b1222d9ec58dbb1f8ad914683179e2114147814ff4df9846fa9dc7",
+        "file": "QSpline-0.2.5-beta.1-32-macos-arm64.dmg",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-macos-arm64.dmg",
+        "bytes": 83730365,
+        "sha256": "c74e91f2723ed402bb0420775fcc12be27a86df524d486facd4a476cf4e6fcf9",
         "minimum_system": "macOS 13.0 and Git 2.39"
       },
       {
         "platform": "windows",
         "architecture": "x86_64",
         "format": "msi",
-        "file": "QSpline-0.2.4-beta.1-31-windows-x86_64.msi",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/QSpline-0.2.4-beta.1-31-windows-x86_64.msi",
-        "bytes": 39653987,
-        "sha256": "14948815332928c46c239685ab25cfd3857c916655390edf9923ad8ea81ec7cc",
+        "file": "QSpline-0.2.5-beta.1-32-windows-x86_64.msi",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-windows-x86_64.msi",
+        "bytes": 39666275,
+        "sha256": "099eff9cfc470885012a89335f8b60b05a165af4eaede76afdd94f15cce933bc",
         "minimum_system": "Windows 10 version 1809 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "rpm",
-        "file": "qspline-0.2.4-beta.1-31.x86_64.rpm",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/qspline-0.2.4-beta.1-31.x86_64.rpm",
-        "bytes": 53633953,
-        "sha256": "be132eadcf6462fb465142bb14f3c48cc850b3c295d1bacb4c7f7bc8140af461",
+        "file": "qspline-0.2.5-beta.1-32.x86_64.rpm",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/qspline-0.2.5-beta.1-32.x86_64.rpm",
+        "bytes": 53640393,
+        "sha256": "5781a8c16826d14559b7eb564d57eb8bbd2fe8594f42a9c5b042d6682b6c4852",
         "minimum_system": "glibc 2.35 and Git 2.39"
       },
       {
         "platform": "linux",
         "architecture": "x86_64",
         "format": "deb",
-        "file": "qspline_0.2.4-beta.1-31_amd64.deb",
-        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.4-beta.1-31/qspline_0.2.4-beta.1-31_amd64.deb",
-        "bytes": 35483708,
-        "sha256": "f7a0ee706b7cc498e7a8b95e170202a5b17cd054ee54b965fcb67aff3bbabdc3",
+        "file": "qspline_0.2.5-beta.1-32_amd64.deb",
+        "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/qspline_0.2.5-beta.1-32_amd64.deb",
+        "bytes": 35486496,
+        "sha256": "0d617032deab3ea363e8f73c342ce346bef22f32340c9d4325769598c8dc6ffa",
         "minimum_system": "glibc 2.35 and Git 2.39"
       }
     ],
     "notes": [
-      "Open folders dragged from the OS as repository tabs, including multiple folders in one drop.",
-      "Accept relative or absolute folders on the command line and open them in the existing window, starting QSpline when needed.",
-      "Show diff search results and reveal the first matching row in Changes.",
-      "Carry staged, unstaged, and untracked changes when creating and checking out a branch at HEAD.",
-      "Keep automatic branch checkout pending when a watcher refresh follows branch creation."
+      "Sidebar counts align at the right edge and give way to a small add toolbar on hover. Running/History sits at the top right of Operations.",
+      "Sidebar section headers reveal a \"+\" on hover or keyboard focus to open their add flow. Insert provides the same shortcut.",
+      "Operations opens only when requested and shows a wider summary when space allows. Mode and filter choices use themed segmented toggles with keyboard navigation.",
+      "Worktree deletion is disabled for protected worktrees, with a reason available in the menu.",
+      "Clicking a staged or unstaged file keeps it in place while selection and focus updates arrive.",
+      "Diff search now highlights results, shows the active hit, and navigates with previous/next buttons, Enter/Shift+Enter, or F3/Shift+F3. Escape clears the search."
     ]
   },
   "releases": [
+    {
+      "version": "0.2.5-beta.1",
+      "build": 32,
+      "tag": "v0.2.5-beta.1-32",
+      "channel": "beta",
+      "assets": [
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "AppImage",
+          "file": "QSpline-0.2.5-beta.1-32-linux-x86_64.AppImage",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-linux-x86_64.AppImage",
+          "bytes": 49678840,
+          "sha256": "80b2908b516b72e58d9818900c4a413b218f963166ecd99795ab0c5d7510351a",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "tar.gz",
+          "file": "QSpline-0.2.5-beta.1-32-linux-x86_64.tar.gz",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-linux-x86_64.tar.gz",
+          "bytes": 53895195,
+          "sha256": "94a08038ef493f526740b41375cfe72e260b9e10abd5bff7a5fba59d16ad29c8",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "macos",
+          "architecture": "arm64",
+          "format": "dmg",
+          "file": "QSpline-0.2.5-beta.1-32-macos-arm64.dmg",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-macos-arm64.dmg",
+          "bytes": 83730365,
+          "sha256": "c74e91f2723ed402bb0420775fcc12be27a86df524d486facd4a476cf4e6fcf9",
+          "minimum_system": "macOS 13.0 and Git 2.39"
+        },
+        {
+          "platform": "windows",
+          "architecture": "x86_64",
+          "format": "msi",
+          "file": "QSpline-0.2.5-beta.1-32-windows-x86_64.msi",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/QSpline-0.2.5-beta.1-32-windows-x86_64.msi",
+          "bytes": 39666275,
+          "sha256": "099eff9cfc470885012a89335f8b60b05a165af4eaede76afdd94f15cce933bc",
+          "minimum_system": "Windows 10 version 1809 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "rpm",
+          "file": "qspline-0.2.5-beta.1-32.x86_64.rpm",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/qspline-0.2.5-beta.1-32.x86_64.rpm",
+          "bytes": 53640393,
+          "sha256": "5781a8c16826d14559b7eb564d57eb8bbd2fe8594f42a9c5b042d6682b6c4852",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        },
+        {
+          "platform": "linux",
+          "architecture": "x86_64",
+          "format": "deb",
+          "file": "qspline_0.2.5-beta.1-32_amd64.deb",
+          "url": "https://github.com/devmil/QSpline/releases/download/v0.2.5-beta.1-32/qspline_0.2.5-beta.1-32_amd64.deb",
+          "bytes": 35486496,
+          "sha256": "0d617032deab3ea363e8f73c342ce346bef22f32340c9d4325769598c8dc6ffa",
+          "minimum_system": "glibc 2.35 and Git 2.39"
+        }
+      ],
+      "notes": [
+        "Sidebar counts align at the right edge and give way to a small add toolbar on hover. Running/History sits at the top right of Operations.",
+        "Sidebar section headers reveal a \"+\" on hover or keyboard focus to open their add flow. Insert provides the same shortcut.",
+        "Operations opens only when requested and shows a wider summary when space allows. Mode and filter choices use themed segmented toggles with keyboard navigation.",
+        "Worktree deletion is disabled for protected worktrees, with a reason available in the menu.",
+        "Clicking a staged or unstaged file keeps it in place while selection and focus updates arrive.",
+        "Diff search now highlights results, shows the active hit, and navigates with previous/next buttons, Enter/Shift+Enter, or F3/Shift+F3. Escape clears the search."
+      ]
+    },
     {
       "version": "0.2.4-beta.1",
       "build": 31,
@@ -381,79 +458,6 @@
       "notes": [
         "Preserve the complete ordered branch union when navigating beyond the first graph page, keep graph revisions valid during metadata loading, and retain the scroll position as filtered history grows or its model resets. Prepare compatible filtered-page appends in the background and make sidebar branch activation available to accessibility clients.",
         "Wait for the user's interactive login-shell environment before showing Finder-launched macOS builds, keeping Git LFS, hooks, and other Homebrew-installed Git helpers available even when shell startup is slow or the path probe fails."
-      ]
-    },
-    {
-      "version": "0.1.25-beta.1",
-      "build": 26,
-      "tag": "v0.1.25-beta.1-26",
-      "channel": "beta",
-      "assets": [
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "AppImage",
-          "file": "QSpline-0.1.25-beta.1-26-linux-x86_64.AppImage",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/QSpline-0.1.25-beta.1-26-linux-x86_64.AppImage",
-          "bytes": 49576440,
-          "sha256": "f29d92379190aacafa50b2d03e1d0bdb141bd2eca7316b0fb6f5c579584c94bf",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "tar.gz",
-          "file": "QSpline-0.1.25-beta.1-26-linux-x86_64.tar.gz",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/QSpline-0.1.25-beta.1-26-linux-x86_64.tar.gz",
-          "bytes": 53763634,
-          "sha256": "b7417b85dd39be55c9406c69e701df92ad86b341d5c5cdcb606cdc95d1d11a34",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "macos",
-          "architecture": "arm64",
-          "format": "dmg",
-          "file": "QSpline-0.1.25-beta.1-26-macos-arm64.dmg",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/QSpline-0.1.25-beta.1-26-macos-arm64.dmg",
-          "bytes": 83635817,
-          "sha256": "ecdb847841d586f0fcc610cad2931c69ceca233d1b647fb52652c14a9649164e",
-          "minimum_system": "macOS 13.0 and Git 2.39"
-        },
-        {
-          "platform": "windows",
-          "architecture": "x86_64",
-          "format": "msi",
-          "file": "QSpline-0.1.25-beta.1-26-windows-x86_64.msi",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/QSpline-0.1.25-beta.1-26-windows-x86_64.msi",
-          "bytes": 39551589,
-          "sha256": "293c19508e37267fc2ded8dcff5d278a49b030440c3ed173fcd7fb3cdb54f0ca",
-          "minimum_system": "Windows 10 version 1809 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "rpm",
-          "file": "qspline-0.1.25-beta.1-26.x86_64.rpm",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/qspline-0.1.25-beta.1-26.x86_64.rpm",
-          "bytes": 53512705,
-          "sha256": "f646d307d98a6af5307943b9a31bfd4653e683219434be9cfbfd6757414c40aa",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        },
-        {
-          "platform": "linux",
-          "architecture": "x86_64",
-          "format": "deb",
-          "file": "qspline_0.1.25-beta.1-26_amd64.deb",
-          "url": "https://github.com/devmil/QSpline/releases/download/v0.1.25-beta.1-26/qspline_0.1.25-beta.1-26_amd64.deb",
-          "bytes": 35402052,
-          "sha256": "b397c9d41901f468925f549d32556c956e5169f0de56853b1a4ab4a393c05dca",
-          "minimum_system": "glibc 2.35 and Git 2.39"
-        }
-      ],
-      "notes": [
-        "Keep the accepted graph stable while a clicked branch is added to an active branch filter, then atomically show the complete filtered union and select the requested branch.",
-        "Preserve usable Changes selection after repository refreshes, accept direct-discard confirmation without a recovery snapshot, and keep file discard commands available after failed pulls.",
-        "Show sanitized Git transfer diagnostics in Activity while continuing to redact credentials and private transport metadata."
       ]
     }
   ]
